@@ -1,66 +1,86 @@
-# Syllabus Tracker Application
+# 📚 Syllabus Tracker Application  
 
-This repository contains the full-stack code for the Syllabus Tracker application.
+A full-stack web application that helps students track their progress against a syllabus, featuring a **React + Vite** frontend and a **Node.js + Express + MongoDB** backend.  
 
-## Overview
+---
 
-This project is a web application designed to help students track their progress against a syllabus. It features a React frontend and a Node.js/Express backend with a MongoDB database.
+## 🚀 Overview  
+The **Syllabus Tracker** lets students easily manage and monitor syllabus completion in an interactive, user-friendly interface.  
 
-### Frontend (`/syllabus-tracker-frontend`)
-- Built with React and Vite.
-- Styled with Tailwind CSS.
-- Features a full user authentication flow and an interactive dashboard.
+- **Frontend**: React, Vite, Tailwind CSS, Authentication, Dashboard  
+- **Backend**: Node.js, Express, MongoDB, Secure REST API  
 
-### Backend (`/syllabus-tracker-backend`)
-- Built with Node.js and Express.
-- Uses MongoDB for the database.
-- Provides a secure REST API for all frontend functionality.
+---
 
-## How to Run
-On opening the parent file, We will see two files in VS Code-
+## 🛠️ Tech Stack  
 
-syllabus-tracker-backend
-syllabus-tracker-frontend
+**Frontend**  
+- ⚛️ React + Vite  
+- 🎨 Tailwind CSS  
+- 🔐 Authentication & Dashboard UI  
 
---OPEN A TERMINAL
-command--
+**Backend**  
+- 🟢 Node.js + Express  
+- 🍃 MongoDB (Mongoose)  
+- 🔒 Secure REST API  
+
+---
+
+## 📂 Folder Structure  
+
+```
+syllabus-tracker-app/
+│── syllabus-tracker-frontend/   # React + Vite frontend
+│── syllabus-tracker-backend/    # Node.js + Express backend
+│── README.md
+│── .gitignore
+```
+
+---
+
+## 📦 Installation & Setup  
+
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/Sarbjeet19/syllabus-tracker-app.git
+cd syllabus-tracker-app
+```
+
+### 2️⃣ Backend Setup  
+```bash
 cd syllabus-tracker-backend
+npm install
 npm run dev
-
-RESULT--
-PS D:\syllabus-tracker-app\syllabus-tracker-backend> npm run dev
-
-> syllabus-tracker-backend@1.0.0 dev
-> nodemon server.js
-
-[nodemon] 3.1.10
-[nodemon] to restart at any time, enter `rs`
-[nodemon] watching path(s): *.*
- a performance overhead.
-To eliminate this warning, add "type": "module" to D:\syllabus-tracker-app\syllabus-tracker-backend\package.json.        
-(Use `node --trace-warnings ...` to show where the warning was created)
-[dotenv@17.2.1] injecting env (5) from .env -- tip: ⚙️  enable debug logging with { debug: true }
-[dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }   
+```
+**Expected Output:**
+```
 🚀 Server running on port 5000
 ✅ Connected to MongoDB
+```
 
-
-
---OPEN ANOTHER NEW TERMINAL
-command--
+### 3️⃣ Frontend Setup  
+Open a new terminal:  
+```bash
 cd syllabus-tracker-frontend
+npm install
 npm run dev
+```
+**Expected Output:**
+```
+VITE vX.X.X  ready in XXX ms
+➜  Local:   http://localhost:5173/
+```
 
-RESULT--
-PS D:\syllabus-tracker-app\syllabus-tracker-frontend> npm run dev
+---
 
-> syllabus-tracker-frontend@0.0.0 dev
-> vite
+## ✨ Features  
+✅ Track syllabus progress in real-time  
+✅ Secure user authentication  
+✅ Interactive dashboard with progress visualization  
+✅ REST API integration  
+✅ Modern UI with Tailwind CSS  
 
-1:38:29 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+---
 
-  VITE v7.1.1  ready in 704 ms
-
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h + enter to show help
+## 📜 License  
+This project is licensed under the **MIT License** – free to use, modify, and distribute.  
