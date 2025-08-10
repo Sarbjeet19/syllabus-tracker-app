@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* This is the new radial gradient you provided */
+  background: #8f9bc2;
+  background: radial-gradient(circle, rgba(143, 155, 194, 1) 0%, rgba(151, 159, 201, 1) 100%, rgba(252, 70, 107, 1) 100%);
+
+  font-family: 'Inter', sans-serif;
+  color: #111827; /* Keeping the dark text for readability on the light background */
+}
